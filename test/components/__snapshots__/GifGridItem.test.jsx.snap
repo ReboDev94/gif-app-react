@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en GifGridItem.jsx hace match con el snapshot 1`] = `
+<div>
+  <div
+    class="w-full md:w-1/3 px-2 my-2"
+  >
+    <div
+      class="rounded-md border"
+    >
+      <img
+        alt="Count Me In Rick And Morty GIF"
+        class="rounded-t-md h-72 object-cover mx-auto"
+        src="https://media0.giphy.com/media/gk3R16JhLP8RUka2nD/giphy.gif?cid=687a5183yndu0bjk14vb9vwskbrg5q2a6pjcib7jjd85ey9i&rid=giphy.gif&ct=g"
+      />
+      <p
+        class="p-2 text-ellipsis w-full"
+      >
+        Count Me In Rick And Morty GIF
+      </p>
+    </div>
+  </div>
+</div>
+`;

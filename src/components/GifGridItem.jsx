@@ -6,7 +6,7 @@ const GifGridItem = ({ img }) => {
     return (
         <div className="w-full md:w-1/3 px-2 my-2" >
             <div className="rounded-md border">
-                <img src={img.url} alt="desc to img" className="rounded-t-md h-72 object-cover mx-auto" />
+                <img src={img.url} alt={img.title} className="rounded-t-md h-72 object-cover mx-auto" />
                 <p className="p-2 text-ellipsis w-full">
                     {img.title}
                 </p>
